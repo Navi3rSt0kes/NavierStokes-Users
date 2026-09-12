@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+coverage/
+.agents
+.claude 
+.codestudio
+pruebas-endpoints.txt
+Instucciones.txt
+CONTRIBUTING.md
