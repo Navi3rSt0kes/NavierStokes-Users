@@ -22,4 +22,4 @@ jobs:
       - uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/navier-stokes-users:latest,ghcr.io/${{ github.repository_owner }}/navier-stokes-users:${{ github.sha }}
+          tags: ghcr.io/navi3rst0kes/navier-stokes-users:latest,ghcr.io/navi3rst0kes/navier-stokes-users:${{ github.sha }}
