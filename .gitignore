@@ -8,3 +8,5 @@ coverage/
 pruebas-endpoints.txt
 Instucciones.txt
 CONTRIBUTING.md
+.vercel
+.env*
