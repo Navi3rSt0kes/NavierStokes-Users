@@ -227,10 +227,3 @@ branch and `main` as the release branch.
   (`{ items: [{ productId, quantity }] }` with denormalized names and prices). The two cart implementations are
   independent.
 
-## Known gaps
-
-- All data is lost when the process restarts; there is no persistence layer.
-- There is no authentication or authorization — any caller can read or modify any user.
-- Serverless deployment amplifies the in-memory limitation: each instance keeps its own store, so data is neither
-  shared between instances nor durable.
-- `email` uniqueness is not enforced; the same address can be registered repeatedly.
